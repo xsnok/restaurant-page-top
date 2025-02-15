@@ -105,3 +105,24 @@ nav {
     grid-column: 1 / 3;
     font-size: 1rem;
 }
+
+/* about css */
+#about-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    max-width: 500px;
+    gap: 1rem;
+    margin: 1rem auto;
+}
+
+#about-title {
+    align-self: center;
+    font-size: 2rem;
+    color: red;
+}
+
+#about-text {
+    line-height: 2;
+}
